@@ -1,0 +1,6 @@
+To run from cli:
+go run main.go
+
+To run in Docker; build and run image:
+docker build . -t receipt-processor
+docker run -p 127.0.0.1:8080:8080 receipt-processor
